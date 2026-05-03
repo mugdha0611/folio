@@ -1,0 +1,133 @@
+.detail-page {
+  padding: 48px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 40px;
+  display: block;
+  transition: color 0.2s;
+}
+
+.back-btn:hover { color: #e8e8e8; }
+
+.detail-hero {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.detail-cover img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.no-cover-large {
+  width: 200px;
+  height: 300px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.detail-meta h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.detail-author {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.detail-year {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.genre-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.genre-pill {
+  background: #1f1f1f;
+  border: 1px solid #2a2a2a;
+  color: #888;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.detail-rating {
+  font-size: 1.4rem;
+  color: #f5c518;
+  letter-spacing: 2px;
+}
+
+.detail-period {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge.read { background: #1a2e1a; color: #4caf50; }
+.status-badge.reading { background: #1a1a2e; color: #6666ff; }
+.status-badge.tbr { background: #2e1a1a; color: #ff6666; }
+
+.detail-section {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.detail-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.detail-review,
+.detail-notes,
+.detail-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+.loading {
+  padding: 48px;
+  color: #666;
+}

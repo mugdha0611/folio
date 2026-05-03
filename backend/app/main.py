@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .database import engine, Base
+from .routers import books
 
 # Import models so SQLAlchemy knows about them
 from . import models
@@ -24,3 +25,5 @@ def create_tables():
 @app.get("/")
 def root():
     return {"message": "Folio API is running"}
+
+app.include_router(books.router)
